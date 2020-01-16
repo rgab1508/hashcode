@@ -1,6 +1,6 @@
 import os
 import math
-f = open('c_medium.in', 'r')
+f = open('d_quite_big.in', 'r')
 
 #getting data
 line1 = f.readline().split(' ')
@@ -10,8 +10,7 @@ MAX_SLICES,NO_OF_TYPES  =int(line1[0]),int(line1[1])
 line2 = f.readline().split(' ')
 slices = [int(x) for x in line2]
 
-# print(slices)
-# for i in slices:
+
 
 def find_lowest_mid(max_slices, _slices):
     _slices.reverse()
@@ -26,11 +25,10 @@ def mid_item(_MAX_SLICES, _slices):
         # print("in loop")
         mid_index = math.floor(len(_slices)/2)
         
-        # if(_slices[mid_index] > _MAX_SLICES):
-        #     mid_index = find_lowest_mid(_MAX_SLICES, _slices)
-
         if(_slices[mid_index] > _MAX_SLICES):
-            mid_index = mid_index-1
+            mid_index = find_lowest_mid(_MAX_SLICES, _slices)
+
+
         curr = _slices[mid_index]
         curr_poped = _slices.pop(mid_index)
         slices_ord.append(curr_poped)
@@ -45,7 +43,7 @@ def mid_item(_MAX_SLICES, _slices):
 mid_item_output = mid_item(MAX_SLICES, slices)
 print(sum(mid_item_output['slices_ord']))
 print(mid_item_output['MAX_SLICES'])
-print(mid_item_output['piz_ind'])
+# print(mid_item_output['piz_ind'])
 # print(piz_ind)
 # print(sum(slices_ord))
 
