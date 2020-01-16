@@ -1,6 +1,6 @@
 import os
 import math
-f = open('d_quite_big.in', 'r')
+f = open('e_also_big.in', 'r')
 
 #getting data
 line1 = f.readline().split(' ')
