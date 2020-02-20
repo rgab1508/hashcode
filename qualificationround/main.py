@@ -58,4 +58,22 @@ for day in range(n_of_days):
         curr_time_taken_to_sign = libraries[curr_lib_index_signing]["time_to_sign"]
 
     
-print(libraries)
+libs_signed = curr_lib_index_signing
+of = open("outputs/a_ouput.txt", "w+")
+of.write(str(libs_signed + 1))
+of.write("\n")
+for l in range(libs_signed):
+    li = libraries[l]
+    __ = []
+    for i in range(len(li["books_scanned"])):
+        for j in range(li["books_shiped_in_day"]):
+            __.append(str(li["books_scanned"][i][j]))
+
+    of.write("{} {}".format(li["lib_id"], len(li["books_scanned"]) * li["books_shiped_in_day"]))
+    of.write("\n")
+    of.write(" ".join(__) + "\n")
+    # if not l > libs_signed - 2:
+    #     of.write("\n")
+
+of.close()
+
