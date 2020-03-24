@@ -1,4 +1,4 @@
-f = open("inputs/a_example.txt")
+f = open("inputs/c_incun.txt")
 
 books_scanned = []
 ## Parsing inputs
