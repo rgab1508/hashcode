@@ -1,6 +1,6 @@
 import math
 
-f = open('e_also_big.in', 'r')
+f = open('inputs/e_also_big.in', 'r')
 
 #getting data
 line1 = f.readline().split(' ')
@@ -43,7 +43,7 @@ def highest_item(_max_slices, _slices):
 
 
 hi = highest_item(MAX_SLICES, slices)
-f2 = open('output_e.txt', 'w+')
+f2 = open('outputs/output_e.txt', 'w+')
 
 f2.write(str(len(hi["piz_ind"])))
 hi["piz_ind"] = sorted(hi["piz_ind"])
