@@ -1,6 +1,6 @@
 # Hashcode
 
-<p align='center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhGH3b5tHELiMt0BSX3o_TKAMQ2jIImwDNHg&usqp=CAU" alt="TheAbbie" width="401" height="191"></p>
+<p align='center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhGH3b5tHELiMt0BSX3o_TKAMQ2jIImwDNHg&usqp=CAU" alt="Google Hashcode"></p>
 
 * [About](#About)
 * [Progress](#Progress)
