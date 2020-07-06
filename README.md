@@ -1,6 +1,6 @@
 # Hashcode
 
-<p align='center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhGH3b5tHELiMt0BSX3o_TKAMQ2jIImwDNHg&usqp=CAU" alt="TheAbbie" width="802" height="382"></p>
+<p align='center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhGH3b5tHELiMt0BSX3o_TKAMQ2jIImwDNHg&usqp=CAU" alt="TheAbbie" width="401" height="191"></p>
 
 * [About](#About)
 * [Progress](#Progress)
@@ -15,6 +15,6 @@ https://codingcompetitions.withgoogle.com/hashcode/
 
 * [x] 2019
 * [x] 2020
-* [x] 2021
-* [x] 2022
-* [x] 2023
+* [ ] 2021
+* [ ] 2022
+* [ ] 2023
