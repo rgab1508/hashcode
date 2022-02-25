@@ -16,5 +16,5 @@ https://codingcompetitions.withgoogle.com/hashcode/
 * [x] 2019
 * [x] 2020
 * [ ] 2021
-* [ ] 2022
+* [x] 2022
 * [ ] 2023
